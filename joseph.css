@@ -1,0 +1,261 @@
+* {
+margin: 0;
+padding: 0;
+}
+body{
+	width: 100%;
+    overflow-x: hidden;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.navwrap{
+	padding-bottom: 110px;
+    z-index: 10000;
+    max-width: 1300px;
+    margin: auto;
+}
+
+nav {
+  	display: flex;
+  	width: 100%;
+    max-width: 1300px;
+    align-items: flex-start;
+  	justify-content: space-between;
+  	font-family: "supria-sans", sans-serif;
+  	font-style: normal;
+  	font-weight: 500;
+  	font-size: 30px; 
+  	position: fixed;
+}
+
+.name{
+    display: flex;
+    padding: 30px 30px;
+}
+
+.about{
+    display: flex;
+    padding: 30px 30px;
+}
+
+ .wrapper{
+    display: flex;
+    margin: auto;
+    max-width: 1300px;
+    width: 86vw;
+    justify-content: space-between;
+    
+}
+
+.infocontainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    padding-top: 45px;
+}
+
+ul{
+   font-family: "supria-sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px; 
+    max-width: 500px;
+    padding-bottom: 15px;
+}
+
+#container{
+	display: flex;
+    width: 86vw;
+	max-width: 1300px;
+    min-width: 320px;
+    padding: 35px;
+    padding-top: 70px;
+    margin: auto;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.container{
+    display: flex;
+    width: 86vw;
+    max-width: 1300px;
+    min-width: 320px;
+    padding: 30px;
+    padding-top: 40px;
+    margin: auto;
+    align-self: start;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#last{
+    padding-bottom: 70px;
+}
+
+.image1{
+    width: 56%;
+ }
+.image1{
+    cursor: pointer;
+    transition: 0.1s;
+}
+.image2{
+    width: 36%;
+}
+.image2{
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.project{
+    width: 100%;
+}
+
+header{
+    font-family: "supria-sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;  
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    width: 37%;
+}
+p{
+    font-family: "supria-sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px; 
+    max-width: 500px;
+    padding-bottom: 15px;
+}
+.fiftySeven{
+    width: 56%;
+}
+.thirty{
+    width: 30%;
+}
+
+.Text{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+    display: block;
+    width: 86%;
+    height: auto;
+    max-width: 1350px;
+}
+
+.pImg1{
+    width: 56%;
+}
+.pImg2{
+    width: 36%;
+}
+.pImg3{
+    width: 86%;
+}
+
+@media screen and (max-width: 906px)  {
+    .wrapper{
+        display: block;
+        margin: auto;
+        width: 86%;
+}
+
+@media screen and (max-width: 704px)  {
+    .container{
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+}   
+
+    #container{
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        padding: 0;
+} 
+    
+    .image1{
+        width: 96%;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+
+    .image2{
+        width: 96%;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+
+    .pImg1{
+        width: 96%;
+        padding-bottom: 50px;
+        margin: auto;
+    }
+    .pImg2{
+        width: 96%;
+        padding-bottom: 50px;
+        margin: auto;
+    }
+    .pImg3{
+        width: 96%;
+        padding-bottom: 50px;
+        height: auto;
+        margin: auto;
+    }
+    
+    header{
+        width: 86%;
+        margin: auto;
+    }
+
+    .Text{
+        width: 86%;
+        margin: auto;
+    }
+
+    .fiftySeven{
+        width: 86%;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+
+    .thirty{
+        width: 86%;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+    
+    nav{
+        font-size: 25px; 
+    }
+}
+@media screen and (max-width: 609px)  {
+    nav{
+        font-size: 20px; 
+    }
+}
