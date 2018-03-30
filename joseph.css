@@ -268,8 +268,8 @@ p{
         font-size: 25px; 
     }
 }
-@media screen and (max-width: 609px)  {
+/*@media screen and (max-width: 609px)  {
     nav{
         font-size: 20px; 
-    }
+    }*/
 }
