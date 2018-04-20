@@ -30,7 +30,6 @@ a:active {
 .navwrap{
 	padding-bottom: 110px;
     z-index: 10000;
-    max-width: 1500px;
     margin: auto;
 }
 
