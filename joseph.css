@@ -222,7 +222,7 @@ p{
     .wrapper{
         display: block;
         margin: auto;
-        width: 86%;
+        width: 96%;
 }
 
 @media screen and (max-width: 704px)  {
@@ -288,24 +288,25 @@ p{
 }
     
     header{
-        width: 86%;
+        width: 96%;
         margin: auto;
         padding-bottom: 20px;
 }
 
     footer{
+        flex-direction: column;
         width: 86%;
         margin: auto;
-        padding-bottom: 20px;
+        padding: 20px;
 }
         h3{
-        width: 86%;
+        width: 96%;
         margin: auto;
         padding-bottom: 50px;
 }
 
     p{
-        width: 86%;
+        width: 96%;
         margin: auto;
         padding-bottom: 50px;
 }
