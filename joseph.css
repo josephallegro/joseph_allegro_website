@@ -12,19 +12,19 @@ body{
 
 a:link {
     text-decoration: none;
-    color: black;
+    color: tomato;
 }
 a:visited {
     text-decoration: none;
-    color: black;
+    color: tomato;
 }
 a:hover {
-    text-decoration: underline;
-    color: black;
+    text-decoration: none;
+    color: red;
 }
 a:active {
     text-decoration: none;
-    color: black;
+    color: tomato;
 }
 
 .navwrap{
