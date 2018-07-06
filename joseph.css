@@ -65,7 +65,8 @@ footer {
     font-weight: 400;
     font-size: 15px;
     margin: auto; 
-    padding-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     justify-content: center;
     max-width: 1500px;
 }
@@ -100,7 +101,7 @@ ul{
     width: 92vw;
     min-width: 320px;
     padding: 30px;
-    padding-top: 50px;
+    padding-top: 30px;
     margin: auto;
     align-items: center;
     justify-content: space-between;
