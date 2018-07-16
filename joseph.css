@@ -213,7 +213,7 @@ h2{
     font-style: normal;
     font-weight: 200;
     font-size: 20px;  
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     display: block;
     width: 70%;
     justify-content: center;
@@ -335,7 +335,7 @@ p{
     header{
         width: 96%;
         margin: auto;
-        padding-bottom: 20px;
+        /*padding-bottom: 20px;*/
         font-size: 25px;
 }
 
