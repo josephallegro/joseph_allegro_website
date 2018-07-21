@@ -143,14 +143,14 @@ ul{
 }
 
 .image1{
-    width: 50%;
+    width: 49%;
  }
 .image1{
     cursor: pointer;
     /*transition: 0.1s;*/
 }
 .image2{
-    width: 40%;
+    width: 39%;
 }
 .image2{
     cursor: pointer;
@@ -250,10 +250,10 @@ p{
 }
 
 .pImg1{
-    width: 50%;
+    width: 49%;
 }
 .pImg2{
-    width: 40%;
+    width: 39%;
 }
 .pImg3{
     width: 100%;
