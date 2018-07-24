@@ -43,8 +43,20 @@ nav {
   	font-family: "supria-sans", sans-serif;
   	font-style: normal;
   	font-weight: 400;
-  	font-size: 33px; 
+  	font-size: 35px; 
   	position: fixed;
+}
+
+h1{
+   font-family: "supria-sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;  
+    display: flex;
+    width: 92vw;
+    align-items: flex-start;
+    justify-content: space-between;
+
 }
 
 .name{
@@ -171,7 +183,7 @@ ul{
     font-family: "supria-sans", sans-serif;
     font-style: normal;
     font-weight: 200;
-    font-size: 33px;  
+    font-size: 35px;  
     display: flex;
     width: 90%;
     justify-content: center;
@@ -201,7 +213,7 @@ header{
     font-family: "supria-sans", sans-serif;
     font-style: normal;
     font-weight: 200;
-    font-size: 33px;  
+    font-size: 35px;  
     padding-top: 50px;
     display: flex;
     width: 70%;
@@ -209,18 +221,7 @@ header{
     text-align: center;
 }
 
-h1{
-   font-family: "supria-sans", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 33px;  
-    display: flex;
-    width: 70%;
-    width: 92vw;
-    align-items: flex-start;
-    justify-content: space-between;
 
-}
 
 h2{
     font-family: "supria-sans", sans-serif;
@@ -264,7 +265,6 @@ p{
     display: flex;
     width: 92vw;
     height: auto;
-    max-width: 1500px;
     justify-content: center;
 }
 
