@@ -151,7 +151,7 @@ hr{
     font-weight: 200;
     font-size: 40px;  
     display: flex;
-    width: 90%;
+    width: 92vw;
     justify-content: center;
     text-align: center; 
     align-items: center;
@@ -192,7 +192,7 @@ h2{
     font-style: normal;
     font-weight: 200;
     font-size: 25px;  
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     display: block;
     width: 70%;
     justify-content: center;
@@ -203,14 +203,13 @@ h3{
     font-style: normal;
     font-weight: 400;
     font-size: 25px; 
-    padding-bottom: 15px;
     display: block;
     margin: auto;
 }
 .Text{
     margin: auto;
     display: flex;
-    width: 96%;
+    width: 92vw;
     height: auto;
     justify-content: center;
 }
@@ -224,7 +223,7 @@ p{
     width: 50%;
 }
 .fifty{
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 .pImg1{
@@ -246,7 +245,7 @@ p{
     .wrapper{
         display: block;
         margin: auto;
-        width: 96%;
+        width: 92vw;
     }
 
     header{
@@ -284,10 +283,8 @@ p{
         padding-left: 0px;
     }
 
-   
-
-    .bigger{
-        width: 100%;
+    p{
+        width: 92vw;
     }
 }
 
@@ -324,13 +321,8 @@ p{
     padding-bottom: 30px;
     }
 
-    .bigger{
-        display: none;
-    }
-
     .frontpage{
-        display: none;
-
+        padding-bottom: 20px;
     }
 
     nav{
@@ -356,13 +348,13 @@ p{
         margin: auto;
     }
     .pImg2{
-        width: 96%;
+        width: 92vw;
         padding-top: 30px;
         padding-bottom: 30px;
         margin: auto;
     }
     .pImg3{
-        width: 96%;
+        width: 92vw;
         padding-top: 30px;
         padding-bottom: 30px;
         height: auto;
@@ -374,33 +366,28 @@ p{
     }
     
     header{
-        width: 96%;
+        width: 92vw;
         margin: auto;
-        padding-bottom: 20px;
+        /*padding-bottom: 20px;*/
         font-size: 25px;
     }
 
     footer{
         flex-direction: column;
-        width: 86%;
+        width: 92vw;
         margin: auto;
-        padding: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
         
     h3{
-        width: 96%;
+        width: 92vw;
         margin: auto;
-        padding-bottom: 50px;
     }
 
     p{
-        width: 96%;
+        width: 92vw;
         margin: auto;
-        padding-bottom: 50px;
-    }
-
-    h1{
-        font-size: 25px; 
     }
 
     hr{
@@ -412,11 +399,11 @@ p{
 
 nav{
     display: block;
-    padding-bottom: 30px;
+    /*padding-bottom: 25px;*/
     }
 .name{
     display: block;
-    font-size: 25px;
+    font-size: 20px;
 }
 .info{
     display: block;
