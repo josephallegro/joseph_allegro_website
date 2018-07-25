@@ -37,26 +37,15 @@ a:active {
 nav {
     z-index: 2;
   	display: flex;
+    flex-wrap: wrap;
   	width: 92vw;
     align-items: flex-start;
   	justify-content: space-between;
   	font-family: "supria-sans", sans-serif;
   	font-style: normal;
   	font-weight: 400;
-  	font-size: 35px; 
+  	font-size: 25px; 
   	position: fixed;
-}
-
-h1{
-   font-family: "supria-sans", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;  
-    display: flex;
-    width: 92vw;
-    align-items: flex-start;
-    justify-content: space-between;
-
 }
 
 .name{
@@ -64,57 +53,38 @@ h1{
     padding-top: 30px;
 }
 
-.about{
+.info{
     display: flex;
     padding-top: 30px;
 }
 
 footer {
-    padding-top: 50px;
     display: flex;
     font-family: "supria-sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     margin: auto; 
-    /*padding-top: 50px;*/
+    padding-top: 50px;
     padding-bottom: 50px;
     justify-content: center;
-    max-width: 1500px;
+    width: 92vw;
 }
 
- .wrapper{
-    display: flex;
+hr{
+    width: 92vw;
     margin: auto;
-    max-width: 1500px;
-    width: 86vw;
-    justify-content: space-between;
-    
-}
-
-.infocontainer{
-    display: flex;
-    flex-direction: column;
-    max-width: 1500px;
-    padding-top: 45px;
-}
-
-ul{
-   font-family: "supria-sans", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px; 
-    max-width: 500px;
-    padding-bottom: 15px;
+    border-width: 1px;
+    border-style: solid;
+    color: black;
 }
 
 #container{
 	display: flex;
     width: 92vw;
     min-width: 320px;
-    padding: 50px;
-    /*padding-top: 30px;
-    padding-bottom: 80px;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin: auto;
     align-items: center;
     justify-content: space-between;
@@ -125,9 +95,8 @@ ul{
     display: flex;
     width: 92vw;
     min-width: 320px;
-    padding: 50px;
-    /*padding-top: 40px;*/
-    /*padding-bottom: 40px;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin: auto;
     align-self: start;
     align-items: center;
@@ -139,9 +108,8 @@ ul{
     display: flex;
     width: 92vw;
     min-width: 320px;
-    padding: 50px;
-    /*padding-top: 30px;*/
-    /*padding-bottom: 50px;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin: auto;
     align-self: start;
     align-items: center;
@@ -159,14 +127,12 @@ ul{
  }
 .image1{
     cursor: pointer;
-    /*transition: 0.1s;*/
 }
 .image2{
     width: 39%;
 }
 .image2{
     cursor: pointer;
-    /*transition: 0.1s;*/
 }
 
 .project{
@@ -174,7 +140,7 @@ ul{
 }
 
 .overlay{
-  display:none;
+    display:none;
     text-align: center;
     z-index: 1;
 }
@@ -183,7 +149,7 @@ ul{
     font-family: "supria-sans", sans-serif;
     font-style: normal;
     font-weight: 200;
-    font-size: 35px;  
+    font-size: 40px;  
     display: flex;
     width: 90%;
     justify-content: center;
@@ -191,7 +157,7 @@ ul{
     align-items: center;
 }
 
-.clickable-container {
+.clickable-container{
   position:relative;
   color:white;
   display:block;
@@ -213,7 +179,7 @@ header{
     font-family: "supria-sans", sans-serif;
     font-style: normal;
     font-weight: 200;
-    font-size: 35px;  
+    font-size: 40px;  
     padding-top: 50px;
     display: flex;
     width: 70%;
@@ -221,13 +187,11 @@ header{
     text-align: center;
 }
 
-
-
 h2{
     font-family: "supria-sans", sans-serif;
     font-style: normal;
     font-weight: 200;
-    font-size: 20px;  
+    font-size: 25px;  
     padding-bottom: 50px;
     display: block;
     width: 70%;
@@ -238,34 +202,29 @@ h3{
     font-family: "supria-sans", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px; 
+    font-size: 25px; 
     padding-bottom: 15px;
     display: block;
     margin: auto;
 }
-
+.Text{
+    margin: auto;
+    display: flex;
+    width: 96%;
+    height: auto;
+    justify-content: center;
+}
 p{
     font-family: "supria-sans", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px; 
-    /*padding-bottom: 20px;*/
-    /*padding-top: 40px;*/
+    font-size: 25px; 
     display: block;
     margin: auto;
     width: 50%;
 }
-
 .fifty{
     padding-bottom: 20px;
-}
-
-.Text{
-    margin: auto;
-    display: flex;
-    width: 92vw;
-    height: auto;
-    justify-content: center;
 }
 
 .pImg1{
@@ -278,75 +237,137 @@ p{
     width: 100%;
 }
 
-@media screen and (max-width: 906px)  {
+.bigger{
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1320px){
     .wrapper{
         display: block;
         margin: auto;
         width: 96%;
+    }
+
+    header{
+        font-size: 35px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+    nav{
+        font-size: 20px;
+    }
+
+     .overlay-content{
+        font-size: 35px;
+    }
 }
 
-@media screen and (max-width: 704px)  {
+@media screen and (max-width: 850px){
+    #container{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+     .container{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+   
+
+    .bigger{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px){
     .container{
         margin: auto;
         flex-direction: column;
         justify-content: center;
         padding: 0;
-}   
+    }   
 
     #container{
         flex-direction: column;
         justify-content: center;
         margin: auto;
         padding: 0;
-} 
+    } 
 
     .container2{
         margin: auto;
         flex-direction: column;
         justify-content: center;
         padding: 0;
-}   
+    }   
 
     #container2{
         flex-direction: column;
         justify-content: center;
         margin: auto;
         padding: 0;
-} 
+    } 
 
     #last{
     padding-bottom: 30px;
+    }
 
-}
+    .bigger{
+        display: none;
+    }
+
+    .frontpage{
+        display: none;
+
+    }
+
+    nav{
+    text-align: center;
+    }
     
     .image1{
-        width: 96%;
+        width: 92vw;
         margin: auto;
         padding-bottom: 50px;
-}
+    }
 
     .image2{
-        width: 96%;
+        width: 92vw;
         margin: auto;
         padding-bottom: 50px;
-}
+    }
 
     .pImg1{
-        width: 96%;
-        padding-bottom: 50px;
+        width: 92vw;
+        padding-top: 30px;
+        padding-bottom: 30px;
         margin: auto;
-}
+    }
     .pImg2{
         width: 96%;
-        padding-bottom: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         margin: auto;
-}
+    }
     .pImg3{
         width: 96%;
-        padding-bottom: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         height: auto;
         margin: auto;
-}
+    }
 
     .overlay-content{
         font-size: 25px;
@@ -355,33 +376,51 @@ p{
     header{
         width: 96%;
         margin: auto;
-        /*padding-bottom: 20px;*/
+        padding-bottom: 20px;
         font-size: 25px;
-}
+    }
 
     footer{
         flex-direction: column;
         width: 86%;
         margin: auto;
         padding: 20px;
-}
-        h3{
+    }
+        
+    h3{
         width: 96%;
         margin: auto;
         padding-bottom: 50px;
-}
+    }
 
     p{
         width: 96%;
         margin: auto;
         padding-bottom: 50px;
-}
-    
-    nav{
-        font-size: 25px; 
     }
 
     h1{
         font-size: 25px; 
     }
+
+    hr{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px){
+
+nav{
+    display: block;
+    padding-bottom: 30px;
+    }
+.name{
+    display: block;
+    font-size: 25px;
+}
+.info{
+    display: block;
+    padding-top: 0px;
+}
+
 }
