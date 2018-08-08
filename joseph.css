@@ -149,7 +149,7 @@ hr{
     font-family: "supria-sans", sans-serif;
     font-style: normal;
     font-weight: 200;
-    font-size: 40px;  
+    font-size: 45px;  
     display: flex;
     width: 92vw;
     justify-content: center;
@@ -179,7 +179,7 @@ header{
     font-family: "supria-sans", sans-serif;
     font-style: normal;
     font-weight: 200;
-    font-size: 40px;  
+    font-size: 45px;  
     padding-top: 50px;
     display: flex;
     width: 70%;
@@ -239,6 +239,8 @@ p{
 .bigger{
     padding-bottom: 20px;
     margin: auto;
+    font-size: 45px;
+    width: 92vw;
 }
 
 @media screen and (max-width: 1320px){
@@ -248,11 +250,11 @@ p{
         width: 92vw;
     }
 
-    header{
+   /* header{
         font-size: 35px;
-    }
+    }*/
 
-    h2{
+    /*h2{
         font-size: 20px;
     }
 
@@ -269,10 +271,10 @@ p{
 
      .overlay-content{
         font-size: 35px;
-    }
+    }*/
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 800px){
     #container{
         padding-right: 0px;
         padding-left: 0px;
@@ -286,6 +288,23 @@ p{
     p{
         width: 92vw;
     }
+
+    .bigger{
+        font-size: 35px;
+
+    }
+
+    header{
+        font-size: 35px;
+    }
+
+    .overlay-content{
+        font-size: 35px;
+    }
+
+    h2{
+        width: 92vw;
+    }
 }
 
 @media screen and (max-width: 650px){
@@ -293,28 +312,28 @@ p{
         margin: auto;
         flex-direction: column;
         justify-content: center;
-        padding: 0;
+        padding: 0px;
     }   
 
     #container{
         flex-direction: column;
         justify-content: center;
         margin: auto;
-        padding: 0;
+        padding: 0px;
     } 
 
     .container2{
         margin: auto;
         flex-direction: column;
         justify-content: center;
-        padding: 0;
+        padding: 0px;
     }   
 
     #container2{
         flex-direction: column;
         justify-content: center;
         margin: auto;
-        padding: 0;
+        padding: 0px;
     } 
 
     #last{
@@ -360,20 +379,26 @@ p{
         height: auto;
         margin: auto;
     }
-
+/*
     .overlay-content{
         font-size: 25px;
-    }
+    }*/
     
     header{
         width: 92vw;
         margin: auto;
         /*padding-bottom: 20px;*/
-        font-size: 25px;
+        /*font-size: 30px;*/
+    }
+
+    .bigger{
+        font-size: 30px;
+        margin-bottom: 25px;
+
     }
 
     footer{
-        flex-direction: column;
+        /*flex-direction: column;*/
         width: 92vw;
         margin: auto;
         padding-top: 30px;
@@ -395,19 +420,38 @@ p{
     }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 530px){
+    .bigger{
+        font-size: 25px;
+    }
+
+    /*header{
+        font-size: 25px;
+    }*/
 
 nav{
     display: block;
-    /*padding-bottom: 25px;*/
+    padding-bottom: 0px;
+    position: static;
     }
+
+.navwrap{
+    padding-bottom: 0px;
+}
 .name{
     display: block;
-    font-size: 20px;
+    font-size: 25px;
 }
 .info{
     display: block;
     padding-top: 0px;
+    font-size: 25px;
 }
+
+}
+
+@media screen and (max-width: 450px){
+
+
 
 }
