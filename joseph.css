@@ -202,9 +202,10 @@ h3{
     font-family: "supria-sans", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 25px; 
+    font-size: 24px; 
     display: block;
     margin: auto;
+    /*width: 50%*/
 }
 .Text{
     margin: auto;
