@@ -3,7 +3,7 @@ margin: 0;
 padding: 0;
 }
 body{
-	width: 100%;
+    width: 100%;
     overflow-x: hidden;
 }
 .overflow-hidden{
@@ -28,7 +28,7 @@ a:active {
 }
 
 .navwrap{
-	padding-bottom: 110px;
+    padding-bottom: 110px;
     z-index: 2;
     margin: auto;
     width: 92vw;
@@ -36,16 +36,16 @@ a:active {
 
 nav {
     z-index: 2;
-  	display: flex;
+    display: flex;
     flex-wrap: wrap;
-  	width: 92vw;
+    width: 92vw;
     align-items: flex-start;
-  	justify-content: space-between;
-  	font-family: "supria-sans", sans-serif;
-  	font-style: normal;
-  	font-weight: 400;
-  	font-size: 25px; 
-  	position: fixed;
+    justify-content: space-between;
+    font-family: "supria-sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px; 
+    position: fixed;
 }
 
 .name{
@@ -80,7 +80,7 @@ hr{
 }
 
 #container{
-	display: flex;
+    display: flex;
     width: 92vw;
     min-width: 320px;
     padding-top: 50px;
@@ -191,8 +191,8 @@ h2{
     font-family: "supria-sans", sans-serif;
     font-style: normal;
     font-weight: 200;
-    font-size: 25px;  
-    padding-bottom: 30px;
+    font-size: 24px;  
+    padding-bottom: 35px;
     display: block;
     width: 70%;
     justify-content: center;
@@ -217,14 +217,16 @@ p{
     font-family: "supria-sans", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 25px; 
+    font-size: 24px; 
     display: block;
     margin: auto;
     width: 50%;
 }
 .fifty{
-    padding-bottom: 0px;
+    /*padding-top: 50px;*/
+    padding-bottom: 50px;
 }
+
 
 .pImg1{
     width: 49%;
@@ -274,7 +276,7 @@ p{
     }*/
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 960px){
     #container{
         padding-right: 0px;
         padding-left: 0px;
@@ -304,6 +306,10 @@ p{
 
     h2{
         width: 92vw;
+    }
+
+    .fifty{
+        padding-bottom: 0px;
     }
 }
 
@@ -422,7 +428,7 @@ p{
 
 @media screen and (max-width: 530px){
     .bigger{
-        font-size: 25px;
+        font-size: 24px;
     }
 
     /*header{
@@ -440,12 +446,12 @@ nav{
 }
 .name{
     display: block;
-    font-size: 25px;
+    font-size: 24px;
 }
 .info{
     display: block;
     padding-top: 0px;
-    font-size: 25px;
+    font-size: 24px;
 }
 
 }
