@@ -28,7 +28,7 @@ a:active {
 }
 
 .navwrap{
-    padding-bottom: 110px;
+    padding-bottom: 140px;
     z-index: 2;
     margin: auto;
     width: 92vw;
@@ -54,6 +54,11 @@ nav {
 }
 
 .info{
+    display: flex;
+    padding-top: 30px;
+}
+
+.CV{
     display: flex;
     padding-top: 30px;
 }
@@ -240,10 +245,9 @@ p{
 }
 
 .bigger{
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     margin: auto;
-    font-size: 45px;
-    width: 92vw;
+    font-size: 24px;
 }
 
 @media screen and (max-width: 1320px){
@@ -292,11 +296,6 @@ p{
         width: 92vw;
     }
 
-    .bigger{
-        font-size: 35px;
-
-    }
-
     header{
         font-size: 35px;
     }
@@ -310,6 +309,10 @@ p{
     }
 
     .fifty{
+        padding-bottom: 0px;
+    }
+
+    .bigger{
         padding-bottom: 0px;
     }
 }
@@ -398,11 +401,7 @@ p{
         /*font-size: 30px;*/
     }
 
-    .bigger{
-        font-size: 30px;
-        margin-bottom: 25px;
-
-    }
+   
 
     footer{
         /*flex-direction: column;*/
@@ -425,13 +424,13 @@ p{
     hr{
         display: none;
     }
+
+    .bigger{
+        padding-bottom: 50px;
+    }
 }
 
 @media screen and (max-width: 530px){
-    .bigger{
-        font-size: 24px;
-    }
-
     /*header{
         font-size: 25px;
     }*/
@@ -448,11 +447,14 @@ nav{
 .name{
     display: block;
     font-size: 24px;
+    padding-bottom: 50px;
 }
 .info{
-    display: block;
-    padding-top: 0px;
-    font-size: 24px;
+    display: none;
+}
+
+.CV{
+    display: none;
 }
 
 }
