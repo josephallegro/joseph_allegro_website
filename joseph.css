@@ -101,7 +101,7 @@ hr{
     width: 92vw;
     min-width: 320px;
     /*max-width: 1320px;*/
-    padding-top: 50px;
+    padding-top: 140px;
     padding-bottom: 50px;
     margin: auto;
     align-self: start;
@@ -228,8 +228,8 @@ p{
     font-size: 24px; 
     display: block;
     margin: auto;
-    width: 50%;
-    max-width: 1300px;
+    width: 92vw;
+    max-width: 910px;
 }
 .fifty{
     /*padding-top: 50px;*/
@@ -247,12 +247,8 @@ p{
     width: 100%;
 }
 
-.bigger{
-    padding-bottom: 50px;
-    margin: auto;
-    font-size: 24px;
-}
 
+/*
 @media screen and (max-width: 1320px){
     .wrapper{
         display: block;
@@ -260,11 +256,11 @@ p{
         width: 92vw;
     }
 
-   /* header{
+    header{
         font-size: 35px;
-    }*/
+    }
 
-    /*h2{
+    h2{
         font-size: 20px;
     }
 
@@ -281,7 +277,7 @@ p{
 
      .overlay-content{
         font-size: 35px;
-    }*/
+    }
 }
 
 @media screen and (max-width: 960px){
@@ -396,22 +392,22 @@ p{
         height: auto;
         margin: auto;
     }
-/*
+
     .overlay-content{
         font-size: 25px;
-    }*/
+    }
     
     header{
         width: 92vw;
         margin: auto;
-        /*padding-bottom: 20px;*/
-        /*font-size: 30px;*/
+        padding-bottom: 20px;
+        font-size: 30px;
     }
 
    
 
     footer{
-        /*flex-direction: column;*/
+        flex-direction: column;
         width: 92vw;
         margin: auto;
         padding-top: 30px;
@@ -437,10 +433,10 @@ p{
     }
 }
 
-@media screen and (max-width: 530px){
-    /*header{
+@media screen and (max-width: 530px)
+    {header{
         font-size: 25px;
-    }*/
+    }
 
 nav{
     display: block;
@@ -470,4 +466,4 @@ nav{
 
 
 
-}
+}*/
