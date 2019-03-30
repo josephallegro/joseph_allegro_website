@@ -1,11 +1,31 @@
-// var prevScrollpos = window.pageYOffset;
-// window.onscroll = function() {
-//   var currentScrollPos = window.pageYOffset;
-//   if (prevScrollpos > currentScrollPos) {
-//     document.getElementById("nav-container").style.top = "0";
-//   } else {
-//     document.getElementById("nav-container").style.top = "-90px";
-//   }
-//   prevScrollpos = currentScrollPos;
-// }
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('header').outerHeight();
 
+$(window).scroll(function(event){
+    didScroll = true;
+});
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 10);
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+    
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    if (st > lastScrollTop && st > navbarHeight){
+        $('header').removeClass('nav-down').addClass('nav-up');
+    } else {
+        if(st + $(window).height() < $(document).height()) {
+            $('header').removeClass('nav-up').addClass('nav-down');
+        }
+    }
+    
+    lastScrollTop = st;
+}
