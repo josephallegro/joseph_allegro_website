@@ -11,11 +11,11 @@
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
     	<meta charset="utf-8"> 
     	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     	<link rel="stylesheet" href="https://use.typekit.net/byj2hxd.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    	<title>Joseph Allegro—Harvard Business Review on Snapchat</title>
     	<link rel="stylesheet" type="text/css" href="joseph.css">
     	<link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
+    	<title>Joseph Allegro—Harvard Business Review on Snapchat</title>
 	</head>
 	<body>
 		<nav id="container">
@@ -44,7 +44,7 @@
 			</p>
 		</section>
 		<section id="container2">
-			<img src="hbr/hbr-breakdown-01.jpg" alt="hbr-img" class="project">
+			<img class="lazy" src="pixel.png" data-original="hbr/hbr-breakdown-01.jpg" alt="hbr-img">
 		</section>
 		<section id="container">
 			<p class="copy">
@@ -54,7 +54,7 @@
 			<video src="hbr/hbr-snap-home-03.mp4" alt="hbr-vid" class="project" autoplay loop></video>
 		</section>
 		<section id="container">
-			<img src="hbr/hbr-breakdown-02.jpg" alt="hbr-img" class="project">
+			<img class="lazy" src="pixel.png" data-original="hbr/hbr-breakdown-02.jpg" alt="hbr-img">
 		</section>
 		<section id="container">
 			<p class="copy">
@@ -68,6 +68,7 @@
 				</div>
 			</footer>
 		</section>
+		<script src="jquery.lazyload.js"></script>
 		<script type="text/javascript" src="joseph.js"></script>
 	</body>
 </html>

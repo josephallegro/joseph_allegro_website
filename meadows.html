@@ -11,11 +11,11 @@
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
     	<meta charset="utf-8"> 
     	<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<link rel="stylesheet" href="https://use.typekit.net/byj2hxd.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    	<title>Joseph Allegro—Meadows</title>
+		<link rel="stylesheet" href="https://use.typekit.net/byj2hxd.css">
     	<link rel="stylesheet" type="text/css" href="joseph.css">
     	<link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
+    	<title>Joseph Allegro—Meadows</title>
 	</head>
 	<body>
 		<nav id="container">
@@ -41,14 +41,14 @@
 			<img src="meadows/meadows-head-alt.jpg" alt="meadows-img" class="project">
 		</section>
 		<section id="container2">
-			<img src="meadows/meadows-specimen.jpg" alt="meadows-img" class="project">
+			<img class="lazy" src="pixel.png" data-original="meadows/meadows-specimen.jpg" alt="meadows-img">
 		</section>
 		<section id="container2">
-			<img src="meadows/meadows-specimen2.jpg" alt="meadows-img" class="project">
+			<img class="lazy" src="pixel.png" data-original="meadows/meadows-specimen2.jpg" alt="meadows-img">
 		</section>
 		<section id="container">
 			<div class="image">
-				<img src="meadows/I.jpg" alt="meadows-img" class="project">
+				<img class="lazy" src="pixel.png" data-original="meadows/I.jpg" alt="meadows-img">
 			</div>
 			<p class="copy">
 				Many typefaces have served to inspire as Meadows has evolved. One of the most considered has been Garamond (both regular and bold), which I first consciously borrowed from when accentuating Meadows’s serifs with slight “dips.”
@@ -56,7 +56,7 @@
 		</section>
 		<section id="container2">
 			<div class="image">
-				<img src="meadows/meadows-home-alt.jpg" alt="meadows-img" class="project">
+				<img class="lazy" src="pixel.png" data-original="meadows/meadows-home.jpg" alt="meadows-img">
 			</div>
 			<p class="copy">
 				Subconsciously, I believe I was also inspired by Dutch letterforms. This was first brought to my attention when the type historian Paul Shaw viewed Meadows during a class visit at RISD. He noted that it appeared to him “Dutch” in style. Several months later, I came across a book of seventeenth century Dutch specimens. Those terminals sure looked familiar!
@@ -68,7 +68,7 @@
 			</p>
 		</section>
 		<section id="container">
-			<img src="meadows/meadows-all-glyphs-alt.jpg" alt="meadows-img" class="project">
+			<img class="lazy" src="pixel.png" data-original="meadows/meadows-all-glyphs-alt.jpg" alt="meadows-img">
 		</section>
 		<section class="footer-container">
 			<footer>
@@ -77,6 +77,7 @@
 				</div>
 			</footer>
 		</section>
+		<script src="jquery.lazyload.js"></script>
 		<script type="text/javascript" src="joseph.js"></script>
 	</body>
 </html>

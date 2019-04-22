@@ -1,3 +1,8 @@
+$(function() {
+    $("img.lazy").lazyload();
+    threshold : 500
+});
+
 var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
@@ -29,3 +34,4 @@ function hasScrolled() {
     
     lastScrollTop = st;
 }
+

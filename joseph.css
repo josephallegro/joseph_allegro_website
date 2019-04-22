@@ -163,6 +163,10 @@ h1{
     width: 100%;
 }
 
+.lazy{
+    width: 100%;
+}
+
 .overlay{
 	text-align: left;
     font-family: "supria-sans", sans-serif;
