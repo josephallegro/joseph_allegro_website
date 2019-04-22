@@ -295,6 +295,9 @@ h1{
     .project{
         padding-bottom: 20px;
     }
+    .lazy{
+        padding-bottom: 20px;
+    }
 
     .image{
         width: 100%;
