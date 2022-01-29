@@ -1,0 +1,162 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+a:link {
+    text-decoration: none;
+    color: #7CB490;
+}
+a:visited {
+    text-decoration: none;
+    color: #7CB490;
+}
+a:hover {
+    color: #000000;
+}
+a:active {
+    text-decoration: none;
+    color: #7CB490;
+}
+
+.inline-link:hover {
+	text-decoration: underline;
+}
+
+section{
+    width: 96vw;
+    margin: auto;
+}
+
+nav{
+	font-family: "supria-sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px; 
+    padding-top: 2%;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container{
+	display: flex;
+}
+
+.nav-container-item{
+	padding-right: 30px;
+}
+
+h1{
+	font-family: "supria-sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    width: 75vw;
+    padding-bottom: 30px;
+}
+
+h2{
+    font-family: "supria-sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    width: 48vw;
+    padding-bottom: 30px;
+}
+
+p{
+    font-family: "supria-sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 30px;
+    width: 48vw;
+}
+
+#container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    align-content: center;
+}
+
+.titlecard{
+    width: 49%;
+    cursor: pointer;
+}
+
+.project{
+    width: 100%;
+}
+
+footer{
+	font-family: "supria-sans", sans-serif;
+    color: #C2C5CC;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px; 
+    padding-top: 60px;
+    padding-bottom: 2%;
+}
+
+@media screen and (max-width: 768px){
+    
+section{
+    width: 92vw;
+}
+    
+nav{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 18px; 
+}
+
+h1{
+    font-size: 28px;
+    width: 92vw;
+    padding-bottom: 20px;
+}
+
+h2{
+    font-size: 28px;
+    width: 92vw;
+    padding-bottom: 20px;
+}
+
+p{
+    font-size: 18px;
+    padding-bottom: 20px;
+    width: 92vw;
+}
+
+
+#container{
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0px;
+}
+
+.titlecard{
+    width: 100%;
+}
+
+.project{
+    padding-bottom: 20px;
+}
+
+footer{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 18px; 
+}
+
+}
