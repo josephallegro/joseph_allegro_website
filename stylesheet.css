@@ -91,6 +91,10 @@ p{
 
 .titlecard{
     width: 49%;
+}
+
+.titlecard2{
+    width: 32%;
     cursor: pointer;
 }
 
@@ -146,6 +150,10 @@ p{
 }
 
 .titlecard{
+    width: 100%;
+}
+
+.titlecard2{
     width: 100%;
 }
 
