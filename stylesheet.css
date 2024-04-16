@@ -31,7 +31,7 @@ a:active {
 }
 
 section{
-    width: 96vw;
+    width: 95.3vw;
     margin: auto;
 }
 
@@ -91,11 +91,15 @@ p{
 
 .titlecard{
     width: 49%;
+    cursor: pointer;
 }
 
 .titlecard2{
+    width: 49%;
+}
+
+.titlecard3{
     width: 32%;
-    cursor: pointer;
 }
 
 .project{
@@ -154,6 +158,10 @@ p{
 }
 
 .titlecard2{
+    width: 100%;
+}
+
+.titlecard3{
     width: 100%;
 }
 
